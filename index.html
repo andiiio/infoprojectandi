@@ -4,17 +4,24 @@
 		<title>This is the Page Title</title>
 	</head>
 	<body>
-		<div>
+		<div style="background:#ff0000">
 			<h1>This is the Heading 1</h1>
 		</div>
-		<div>
-			<h2>This is a Heading zwei</h2>
-			<p>This is a paragraph.</p>
-			<a href="./page.2.html">
-			Zur zweiten Seite</a>
+			<div style="background:#00fcff; width:100%; float:left;">
+				<div style="background:#7e00ff; width:20%; float:left"
+				<h2>This is a Heading zwei</h2> 
+				<p id="myparagraph">Gefällt mir nicht.</p>
+			</div>
+			<div style="background:#0000ff; width:20%; float:left;"> 
+				<a href="./page.2.html">
+				Zur zweiten Seite</a>
+			</div>
 		</div>
-		<div>
-		<p>Verantwortlich: Andreas Ostermann (ostermann.andreas@htleisenstadt.at)
+		<div style="background:#808080">
+			<button onclick="document.getElementById('myparagraph').innerHTML='Gefällt mir viel besser.'">
+			KLICK MICH
+			</button>
+			<p>Verantwortlich: Andreas Ostermann (ostermann.andreas@htleisenstadt.at) </p>
 		</div>
 	</body>
 </html> 
